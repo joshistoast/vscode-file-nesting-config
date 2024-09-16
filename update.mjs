@@ -454,6 +454,7 @@ const base = {
   '*.vue': '$(capture).*.ts, $(capture).*.js, $(capture).story.vue',
   '*.w': '$(capture).*.w, I$(capture).w',
   '*.xaml': '$(capture).xaml.cs',
+  '*.json': '$(capture).*.json, $(capture).*.liquid',
   'ansible.cfg': 'ansible.cfg, .ansible-lint, requirements.yml',
   'build-wrapper.log': 'build-wrapper*.log, build-wrapper-dump*.json, build-wrapper-win*.exe, build-wrapper-linux*, build-wrapper-macosx*',
   'BUILD.bazel': '*.bzl, *.bazel, *.bazelrc, bazel.rc, .bazelignore, .bazelproject, WORKSPACE',

@@ -117,7 +117,8 @@ Open your VS Code, bring up your `settings.json`, copy-n-paste the snippet below
     "*.vbproj": "*.config, *proj.user, appsettings.*, bundleconfig.json",
     "*.vue": "$(capture).*.ts, $(capture).*.js, $(capture).story.vue",
     "*.w": "$(capture).*.w, I$(capture).w",
-    "*.xaml": "$(capture).xaml.cs"
+    "*.xaml": "$(capture).xaml.cs",
+    "*.json": "$(capture).*.json, $(capture).*.liquid"
   },
 ```
 
